@@ -1,12 +1,12 @@
-Carnivore LE
+SimpleBackup
 
 See the file VERSION in this directory for version information.
 
-Carnivore LE is a very fast forensic data gatherer to be used against
-live (running) GNU/Linux (LIN), Macintosh (MAC), and Windows (WIN)
-suspect computers to capture memory, user files, registry, logs, and
-other volatile data that can be lost or rendered inaccessible once the
-computer shuts down.
+This utility uses rsync to backup your HOME directory to an external
+device labeled \"BACKUP\" that is expected to be mounted under the
+username in the /media directory. It ignores files in the same way CVS
+does. It runs in archive mode with verbose output and compression.
+Select YES to start or NO to abort.
 
 If this is a beta release, you may find that the program is unfinished.
 Even if it is a maintenance relase, you may encounter bugs. Please see
@@ -15,15 +15,6 @@ are valuable contributions to Positronikal since they allow us to
 notice and fix problems on machines we don't have or in code we don't
 use often.  See the file BUGS in this directory for more information on
 how to report bugs.
-
-The software was built using Code::Blocks (http://www.codeblocks.org/).
-Release binaries of LIN and MAC implementations were compiled/linked
-using GNU GCC (https://gcc.gnu.org/) and the Windows implementation was
-compiled/linked using MinGW (http://www.mingw.org/). All project files
-necessary to edit, add to, or build same or custom binaries using these
-tools are included in the repository specific to the implementation.
-The file USING in this directory contains information for both
-developers and practitioners. carnivore.cbp is the main project file.
 
 Licensing information is contained in the file COPYING in this directory.
 
