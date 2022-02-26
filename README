@@ -2,11 +2,11 @@ SimpleBackup
 
 See the file VERSION in this directory for version information.
 
-This utility uses rsync to backup your HOME directory to an external
-device labeled \"BACKUP\" that is expected to be mounted under the
-username in the /media directory. It ignores files in the same way CVS
-does. It runs in archive mode with verbose output and compression.
-Select YES to start or NO to abort.
+This bash utility works on Debian-based distros and uses rsync to
+backup your HOME directory to an external device labeled \"BACKUP\"
+that is expected to be mounted under the username in the /media
+directory. It ignores files in the same way CVS does. It runs in
+archive mode with verbose output and compression.
 
 If this is a beta release, you may find that the program is unfinished.
 Even if it is a maintenance relase, you may encounter bugs. Please see
